@@ -1,0 +1,27 @@
+<main>
+  <div class="currently-watching">
+    <h3>Currently watching</h3>
+    <div class="movie-wrapper">
+      @for (item of currently;track item){
+      <app-film-preview/>
+    }
+    </div>
+  </div>
+  <div class="suggested-to-watch">
+    <h3>Suggested to watch</h3>
+    <div class="movie-wrapper">
+      @for (item of suggested;track item){
+      <app-film-preview/>
+      }
+    </div>
+  </div>
+  <div class="previously-watching">
+    <h3>Previously watching</h3>
+    <div class="movie-wrapper">
+      @for (item of previously;track item){
+      <app-film-preview/>
+      }
+    </div>
+  </div>
+
+</main>

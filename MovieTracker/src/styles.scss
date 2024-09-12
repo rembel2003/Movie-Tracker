@@ -1,0 +1,13 @@
+body{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+app-root{
+  width: 90%;
+}
+a{
+    text-decoration: none; /* Убирает подчеркивание */
+    color: inherit; /* Устанавливает цвет текста в соответствии с родительским элементом */
+}
